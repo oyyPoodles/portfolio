@@ -535,7 +535,7 @@ export default function Portfolio() {
               description="End-to-end conversational AI system with natural language understanding and generation capabilities."
               image="/CAA.png?height=300&width=400"
               tags={["NLU", "NLG", "Dialogue Systems"]}
-              link="https://github.com/ujjwal-chaudhary"
+              link="https://github.com/oyyPoodles/Conversational-AI-Assistant"
             />
           </div>
 
@@ -612,7 +612,7 @@ export default function Portfolio() {
                 </Link>
 
                 <Link
-                  href="https://twitter.com/ujjwal_ai"
+                  href="https://x.com/U__Chaudhary"
                   target="_blank"
                   className="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-purple-900/20 transition-colors border border-purple-500/20 hover:border-purple-500/50"
                 >
@@ -738,11 +738,11 @@ export default function Portfolio() {
               <Linkedin className="h-5 w-5" />
               <span className="sr-only">LinkedIn</span>
             </Link>
-            <Link href="https://twitter.com/ujjwal_ai" target="_blank" className="text-white/60 hover:text-purple-500">
+            <Link href="https://x.com/U__Chaudhary" target="_blank" className="text-white/60 hover:text-purple-500">
               <Twitter className="h-5 w-5" />
               <span className="sr-only">Twitter</span>
             </Link>
-            <Link href="mailto:ujjwal.chaudhary@example.com" className="text-white/60 hover:text-purple-500">
+            <Link href="mailto:chaudharyujjwal111@gmail.com" className="text-white/60 hover:text-purple-500">
               <Mail className="h-5 w-5" />
               <span className="sr-only">Email</span>
             </Link>
