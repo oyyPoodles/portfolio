@@ -73,7 +73,7 @@ export default function Portfolio() {
   const downloadResume = () => {
     // Create a link element
     const link = document.createElement("a")
-    link.href = "Professional Resume.pdf" // Path to the resume file
+    link.href = "My resume.pdf" // Path to the resume file
     link.download = "Ujjwal-Chaudhary-Resume.pdf"
     document.body.appendChild(link)
     link.click()
