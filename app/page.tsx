@@ -83,8 +83,8 @@ export default function Portfolio() {
   const downloadCV = () => {
     // Create a link element
     const link = document.createElement("a")
-    link.href = "/cv-ujjwal-chaudhary.pdf" // Path to the CV file
-    link.download = "Ujjwal-Chaudhary-CV.pdf"
+    link.href = "Certificate.pdf" // Path to the CV file
+    link.download = "Hackathon Certificates.pdf"
     document.body.appendChild(link)
     link.click()
     document.body.removeChild(link)
@@ -131,7 +131,7 @@ export default function Portfolio() {
               <Download className="mr-2 h-4 w-4" /> Resume
             </Button>
             <Button variant="default" size="sm" className="bg-purple-600 hover:bg-purple-700" onClick={downloadCV}>
-              <Download className="mr-2 h-4 w-4" /> CV
+              <Download className="mr-2 h-4 w-4" /> Certificate
             </Button>
           </div>
         </div>
@@ -266,7 +266,7 @@ export default function Portfolio() {
                 </div>
                 <div className="flex items-center gap-2">
                   <div className="h-2 w-2 rounded-full bg-purple-500"></div>
-                  <span className="text-white/70">Technical Speaker</span>
+                  <span className="text-white/70">1 X Hackathon Winner</span>
                 </div>
               </div>
             </motion.div>
@@ -312,14 +312,14 @@ export default function Portfolio() {
             <TabsContent value="ml" className="mt-0">
               <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
                 {[
-                  { name: "TensorFlow", level: 95 },
-                  { name: "PyTorch", level: 90 },
-                  { name: "Scikit-Learn", level: 95 },
-                  { name: "Keras", level: 90 },
-                  { name: "OpenCV", level: 85 },
-                  { name: "NLTK", level: 80 },
-                  { name: "Hugging Face", level: 85 },
-                  { name: "SpaCy", level: 75 },
+                  { name: "TensorFlow", level: 75 },
+                  { name: "PyTorch", level: 70 },
+                  { name: "Scikit-Learn", level: 65 },
+                  { name: "Keras", level: 50 },
+                  { name: "OpenCV", level: 65 },
+                  { name: "NLTK", level: 60 },
+                  { name: "Hugging Face", level: 45 },
+                  { name: "SpaCy", level: 55 },
                 ].map((tech, index) => (
                   <motion.div
                     key={tech.name}
@@ -345,14 +345,13 @@ export default function Portfolio() {
             <TabsContent value="languages" className="mt-0">
               <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
                 {[
-                  { name: "Python", level: 95 },
-                  { name: "C", level: 75 },
+                  { name: "Python", level: 75 },
+                  { name: "C", level: 65 },
                   { name: "JavaScript", level: 70 },
-                  { name: "Java", level: 70 },
+                  { name: "Java", level: 50 },
                   { name: "C++", level: 70 },
                   { name: "SQL", level: 90 },
                   { name: "PHP", level: 65 },
-                  { name: "#", level: 60 },
                 ].map((tech, index) => (
                   <motion.div
                     key={tech.name}
@@ -378,14 +377,14 @@ export default function Portfolio() {
             <TabsContent value="data" className="mt-0">
               <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
                 {[
-                  { name: "Pandas", level: 95 },
-                  { name: "NumPy", level: 95 },
-                  { name: "MySQL", level: 85 },
-                  { name: "Plotly", level: 80 },
-                  { name: "Keras", level: 75 },
-                  { name: "Seaborn", level: 80 },
-                  { name: "SciPy", level: 80 },
-                  { name: "Matplotlib", level: 90 },
+                  { name: "Pandas", level: 75 },
+                  { name: "NumPy", level: 65 },
+                  { name: "MySQL", level: 75 },
+                  { name: "Plotly", level: 50 },
+                  { name: "Keras", level: 65 },
+                  { name: "Seaborn", level: 50 },
+                  { name: "SciPy", level: 50 },
+                  { name: "Matplotlib", level: 60 },
                 ].map((tech, index) => (
                   <motion.div
                     key={tech.name}
@@ -412,9 +411,9 @@ export default function Portfolio() {
               <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
                 {[
                   { name: "AWS", level: 50 },
-                  { name: "Google Cloud", level: 80 },
-                  { name: "Azure", level: 40 },
-                  { name: "MLflow", level: 50 },
+                  { name: "Google Cloud", level: 40 },
+                  { name: "Azure", level: 10 },
+                  { name: "MLflow", level: 20 },
                   { name: "Kubeflow", level: 30 },
                 ].map((tech, index) => (
                   <motion.div
@@ -441,13 +440,13 @@ export default function Portfolio() {
             <TabsContent value="tools" className="mt-0">
               <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
                 {[
-                  { name: "Git", level: 90 },
-                  { name: "Jupyter", level: 95 },
-                  { name: "VS Code", level: 90 },
-                  { name: "PyCharm", level: 85 },
-                  { name: "Bash", level: 85 },
+                  { name: "Git", level: 70 },
+                  { name: "Jupyter", level: 85 },
+                  { name: "VS Code", level: 70 },
+                  { name: "PyCharm", level: 65 },
+                  { name: "Bash", level: 45 },
                   { name: "Colab", level: 85 },
-                  { name: "Gemini", level: 85 },
+                  { name: "Gemini", level: 65 },
                 ].map((tech, index) => (
                   <motion.div
                     key={tech.name}
@@ -621,7 +620,7 @@ export default function Portfolio() {
                   </div>
                   <div>
                     <h4 className="font-medium">Twitter</h4>
-                    <p className="text-white/70">@ujjwal_ai</p>
+                    <p className="text-white/70">@ujjwal</p>
                   </div>
                 </Link>
 
@@ -757,7 +756,7 @@ export default function Portfolio() {
               <Download className="mr-2 h-4 w-4" /> Resume
             </Button>
             <Button variant="default" size="sm" className="bg-purple-600 hover:bg-purple-700" onClick={downloadCV}>
-              <Download className="mr-2 h-4 w-4" /> CV
+              <Download className="mr-2 h-4 w-4" /> Certificate
             </Button>
           </div>
           <p className="text-white/40 text-sm mt-8">
