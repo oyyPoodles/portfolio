@@ -83,7 +83,7 @@ export default function Portfolio() {
   const downloadCV = () => {
     // Create a link element
     const link = document.createElement("a")
-    link.href = "Certificate.pdf" // Path to the CV file
+    link.href = "Certificates.pdf" // Path to the CV file
     link.download = "Hackathon Certificates.pdf"
     document.body.appendChild(link)
     link.click()
